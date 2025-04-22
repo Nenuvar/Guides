@@ -108,7 +108,7 @@ git push
 ```
 
 ### Test your setup
-Now you can test your setup. Create a file and do this:
+Now you can test your setup. Create a file in Obsidian and do this:
 ```
 git add .
 git commit -m "Initial"
