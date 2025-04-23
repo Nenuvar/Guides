@@ -122,6 +122,9 @@ This confirms that the .gitignore file was setup correctly.
 
 ## 📲 Android Setup
 
+### Prerequisites:
+	Your SSH key is already set up. 
+
 ### 1. Clone the GitHub repo
 
 **Do not create a new Obsidian vault manually.** This you will do through the clone command:
