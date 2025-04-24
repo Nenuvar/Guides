@@ -120,22 +120,22 @@ This confirms that the .gitignore file was setup correctly.
 
 ---
 
-## 📲 Android Setup
+## 📲 Android Setup (Cloning repo)
 
 ### Prerequisites:
 	Your SSH key is already set up. 
 
 ### 1. Clone the GitHub repo
 
-**Do not create a new Obsidian vault manually.** This you will do through the clone command:
+**Do not create a new Obsidian vault manually.** 
+This you will do through the clone command:
 
 On Android in Termux:
 
-```
+```bash
 cd ~/storage/shared/Obsidian
 
 git clone git@github.com:Nenuvar/name-of-your-github-repo.git "Obsidian-vault-on-Android"
-
 ```
 Change the name of the Github repo to the one you used to connect to your Linux PC. Change the name of the Obsidian vault on Android to what you want your Android Vault to be named. 
 
@@ -158,7 +158,7 @@ The `"name of your vault"` should be in quotes. This is due to the command not r
 ### 4. Push your first Android change
 In Obsidian add a new file or change an existing file. Run the commands: 
 
-```
+```bash
 git add . 
 git commit -m "Your commit message here" 
 git push
@@ -170,11 +170,11 @@ The new changes should come up in the Github repo
 ## 🔁 Daily Workflow
 
 ### To pull the latest changes (do this first):
-```
+```bash
 git pull
 ```
 ### To save your edits:
-```
+```bash
 git add . 
 git commit -m "Your commit message here" 
 git push
