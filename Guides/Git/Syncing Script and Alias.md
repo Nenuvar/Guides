@@ -7,7 +7,9 @@ Create and open your script file. Naming conventions should be `sync-[Obsidian V
 nano sync-guides-windows.sh
 ```
 
-Within your script file paste this:
+Within your script file paste this. Change these parts
+- The vault directory should be the vault path on your device
+- The commit message should reflect what OS you are pushing from
 ```bash
 #!/bin/bash
 
