@@ -1,13 +1,13 @@
 ## The Script
+Go to your home directory
 
 Create and open your script file. Naming conventions should be `sync-[Obsidian Vault]-[OS].sh`
 
 ```bash
-nano .sync-guides-windows.sh
+nano sync-guides-windows.sh
 ```
 
 Within your script file paste this:
-
 ```bash
 #!/bin/bash
 
@@ -38,25 +38,21 @@ git push
 
 echo "✅ Sync complete!"
 ```
-
 Then save (`ctrl + o` and `enter` ) and exit (`ctrl + x` )
 
 ### Place your scripts in a folder
 
 Place your script somewhere consistent, like:
-
 ```bash
 ~/scripts/sync-guides-windows.sh
 ```
 
 You can create this folder if it doesn’t exist:
-
 ```bash
 mkdir -p ~/scripts
 ```
 
 Then move the script there:
-
 ```bash
 mv /path/to/your/sync-guides-windows.sh ~/scripts/sync-guides-windows.sh
 ```
@@ -70,13 +66,11 @@ chmod +x ~/scripts/sync-guides-windows.sh
 ## Create the alias in `.bashrc`
 
 Open your `.bashrc` file:
-
 ```bash
 nano ~/.bashrc
 ```
 
-Add this at the bottom:
-
+Add the alias at the bottom of the file. The name convention should be `sync[Obsidian vault]`. This way it will be easier to remember 
 ```bash
 alias syncguides="~/scripts/sync-guides-windows.sh"
 ```
@@ -85,8 +79,7 @@ Then save (`ctrl + o` and `enter` ) and exit (`ctrl + x` )
 
 ### Reload `.bashrc`
 
-Apply the changes by reloading your terminal session (and therefore your `.bashrc` file:
-
+Apply the changes by reloading your terminal session (and therefore your `.bashrc` file):
 ```bash
 source ~/.bashrc
 ```
@@ -94,7 +87,6 @@ source ~/.bashrc
 ### Test the alias
 
 Now you should be able to run this command from anywhere in your terminal:
-
 ```bash
 syncguides
 ```
