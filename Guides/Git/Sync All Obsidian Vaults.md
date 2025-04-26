@@ -17,6 +17,15 @@ bash ~/scripts/[your-script].sh
 ```
 ### Example
 
+```bash
+#!/bin/bash
+
+# Sync Obsidian Vault Test 1
+bash ~/scripts/sync-test1-linux.sh
+
+# Sync Obsidian Vault Guides
+bash ~/scripts/sync-guides-linux.sh
+```
 ## Make the Script Executable
 Run this command: 
 ```bash
