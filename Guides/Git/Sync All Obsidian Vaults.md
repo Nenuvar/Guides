@@ -5,21 +5,24 @@ In you `/script`folder add your script file
 nano sync-all.sh
 ```
 
-Add this inside it (replace the paths with your actual script paths):
+Add this inside the script (replace the paths with your actual script paths):
 ```bash
+#!/bin/bash
 
+# Sync Obsidian Vault [name]
+bash ~/scripts/[your-script].sh
+
+# Sync Obsidian Vault [name]
+bash ~/scripts/[your-script].sh
 ```
+### Example
 
-`#!/bin/bash  # Sync Test 1 vault bash ~/path/to/sync-test1.sh  # Sync Guides vault bash ~/path/to/sync-guides.sh`
-
-3. **Make it executable**:
-    
-
-bash
-
-CopyEdit
-
-`chmod +x ~/sync-all.sh`
+## Make the Script Executable
+Run this command: 
+```bash
+chmod ~/scripts/sync-all.sh
+```
+Replace the name of the script if it is different 
 
 4. **Create an alias** (add this to your `~/.bashrc` or `~/.bash_aliases`):
     
