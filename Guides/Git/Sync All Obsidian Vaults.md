@@ -1,6 +1,6 @@
 ## Create the script file
 
-In you `/script`folder add your script file
+In you `/scripts`folder add your script file
 ```bash
 nano sync-all.sh
 ```
@@ -15,7 +15,7 @@ bash ~/scripts/[your-script].sh
 # Sync Obsidian Vault [name]
 bash ~/scripts/[your-script].sh
 ```
-### Example
+### Example - Linux
 
 ```bash
 #!/bin/bash
@@ -31,22 +31,20 @@ Run this command:
 ```bash
 chmod ~/scripts/sync-all.sh
 ```
-Replace the name of the script if it is different 
+Replace the name of the script if it is different.
 
-4. **Create an alias** (add this to your `~/.bashrc` or `~/.bash_aliases`):
-    
+## Create the Alias
 
-bash
+**Create an alias.** Add this to your `~/.bashrc`:
+```bash
+alias syncall="bash ~/scripts/sync-all.sh"
+```
+The alias can be whatever you like.
+Keep the script name the same as in the last step. 
 
-CopyEdit
+## Apply the Changes
 
-`alias syncobsidian="bash ~/sync-all.sh"`
-
-5. **Apply changes**:
-    
-
-bash
-
-CopyEdit
-
-`source ~/.bashrc`
+```bash
+source ~/.bash
+```
+This restarts your terminal session, resetting the `.bashrc` file. 
