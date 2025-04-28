@@ -1,6 +1,24 @@
 ## The Script
 Go to your home directory
+### Place your Scripts in a Folder
 
+Place your script somewhere consistent, like:
+```bash
+~/scripts/sync-guides-windows.sh
+```
+
+You can create this folder if it doesn’t exist:
+```bash
+mkdir -p ~/scripts
+```
+
+If you created the script file before the script folder, you can move it
+```bash
+mv /path/to/your/sync-guides-windows.sh ~/scripts/sync-guides-windows.sh
+```
+
+### Create the Script
+Navigate to your `scripts` folder
 Create and open your script file. Naming conventions should be `sync-[Obsidian Vault]-[OS].sh`
 
 **Example Guides vault on Windows
@@ -8,11 +26,11 @@ Create and open your script file. Naming conventions should be `sync-[Obsidian V
 nano sync-guides-windows.sh
 ```
 
-Within your script file paste this. Change these parts
+Within your script file paste one of the versions below. Change these parts
 - The vault directory should be the vault path on your device
 	- if the vault directory contains spaces, it should just stay like that
 - The commit message should reflect what OS you are pushing from
-### V1
+#### V1
 ```bash
 #!/bin/bash
 
@@ -45,7 +63,7 @@ echo "✅ Sync complete!"
 ```
 Then save (`ctrl + o` and `enter` ) and exit (`ctrl + x` )
 
-### V2 (updated)
+#### V2 (updated)
 
 ```bash
 #!/bin/bash
@@ -90,7 +108,7 @@ fi
 ```
 
 
-### V3 (Pro)
+#### V3 (Pro)
 
 ```bash
 #!/bin/bash
@@ -177,24 +195,8 @@ echo "   - Pulled commits: $PULLED_COMMITS"
 echo "   - Pushed commits: $PUSHED_COMMITS"
 echo "✅ Done!"
 ```
-### Place your scripts in a folder
 
-Place your script somewhere consistent, like:
-```bash
-~/scripts/sync-guides-windows.sh
-```
-
-You can create this folder if it doesn’t exist:
-```bash
-mkdir -p ~/scripts
-```
-
-Then move the script there:
-```bash
-mv /path/to/your/sync-guides-windows.sh ~/scripts/sync-guides-windows.sh
-```
-
-### Make it executable
+### Make the Script Executable
 
 ```bash
 chmod +x ~/scripts/sync-guides-windows.sh
