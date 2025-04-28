@@ -12,6 +12,7 @@ Within your script file paste this. Change these parts
 - The vault directory should be the vault path on your device
 	- if the vault directory contains spaces, it should just stay like that
 - The commit message should reflect what OS you are pushing from
+### V1
 ```bash
 #!/bin/bash
 
@@ -44,16 +45,16 @@ echo "✅ Sync complete!"
 ```
 Then save (`ctrl + o` and `enter` ) and exit (`ctrl + x` )
 
-### Script V2 (updated)
+### V2 (updated)
 
 ```bash
 #!/bin/bash
 
 # Set your vault directory
-VAULT_DIR=~/"storage/shared/Documents/Obsidian/Guides Android"
+VAULT_DIR=~/"Documents/Obsidian/[name of Vault]"
 
 # Set your commit message
-COMMIT_MESSAGE="Git Sync Script from Android"
+COMMIT_MESSAGE="Sync from [OS]"
 
 echo "📁 Navigating to vault: $VAULT_DIR"
 cd "$VAULT_DIR" || { echo "❌ Failed to navigate to vault directory."; exit 1; }
@@ -88,6 +89,94 @@ else
 fi
 ```
 
+
+### V3 (Pro)
+
+```bash
+#!/bin/bash
+
+# --- Configuration ---
+VAULT_DIR=~/"Documents/Obsidian/[name of Vault]"
+COMMIT_MESSAGE="Sync from [OS]"
+
+# --- Helpers ---
+abort() {
+    echo "❌ $1"
+    exit 1
+}
+
+prompt_show() {
+    read -p "👀 $1 (y/N): " response
+    [[ "$response" == [yY] ]]
+}
+
+# --- Start Script ---
+echo "📁 Navigating to vault: $VAULT_DIR"
+cd "$VAULT_DIR" || abort "Failed to navigate to vault directory."
+
+# Remember current HEAD before pull
+BEFORE_PULL=$(git rev-parse HEAD)
+
+# Stash uncommitted changes
+echo "🔍 Stashing local changes (if any)..."
+git stash push -u -q
+
+# Pull latest changes with rebase
+echo "⬇️ Pulling latest changes..."
+if ! git pull --rebase --quiet; then
+    abort "Git pull failed. Resolve conflicts manually!"
+fi
+
+# How many commits were pulled?
+AFTER_PULL=$(git rev-parse HEAD)
+PULLED_COMMITS=$(git rev-list --count "$BEFORE_PULL..$AFTER_PULL")
+
+# Show pulled commits if wanted
+if [[ "$PULLED_COMMITS" -gt 0 ]]; then
+    if prompt_show "See what was pulled?"; then
+        echo "🔍 Pulled commits:"
+        git log "$BEFORE_PULL..$AFTER_PULL" --oneline
+    fi
+else
+    echo "ℹ️ No new commits were pulled."
+fi
+
+# Reapply stashed changes
+echo "🎒 Reapplying stashed changes..."
+git stash pop -q || echo "ℹ️ No stash to apply."
+
+# Stage changes
+echo "➕ Staging all changes..."
+git add .
+
+# Commit and push if needed
+if git diff --cached --quiet; then
+    echo "✅ No local changes to commit!"
+    PUSHED_COMMITS=0
+else
+    echo "📝 Committing changes..."
+    git commit -m "$COMMIT_MESSAGE" --quiet
+
+    echo "📤 Pushing to GitHub..."
+    if ! git push --quiet; then
+        abort "Git push failed!"
+    fi
+    PUSHED_COMMITS=1
+
+    # Show pushed commit if wanted
+    if prompt_show "See what was pushed?"; then
+        echo "🔍 Last pushed commit:"
+        git log origin/main --oneline -n 1
+    fi
+fi
+
+# --- Final Summary ---
+echo ""
+echo "📋 Sync Summary:"
+echo "   - Pulled commits: $PULLED_COMMITS"
+echo "   - Pushed commits: $PUSHED_COMMITS"
+echo "✅ Done!"
+```
 ### Place your scripts in a folder
 
 Place your script somewhere consistent, like:
