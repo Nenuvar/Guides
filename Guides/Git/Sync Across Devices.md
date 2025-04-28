@@ -39,7 +39,7 @@ git commit -m "Initial"
 git push -u origin main
 ```
 ### 4. Create a `.gitignore` file
-Use the command
+Within your vault directory, use the command
 ```
 nano .gitignore
 ```
@@ -115,7 +115,7 @@ git commit -m "Initial"
 git push
 ```
 
-In your repo there should only be one file in your .obsidian file: `core-plugins.json`
+If this was a totally fresh vault, there should only be one file in the `.obsidian` folder of your repo: `core-plugins.json`
 This confirms that the .gitignore file was setup correctly. 
 
 ---
