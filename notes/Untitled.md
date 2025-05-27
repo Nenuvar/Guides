@@ -1,0 +1,1 @@
+Søke perm - hva skjer mtp betalign hvis plassen ikke blir fylt
