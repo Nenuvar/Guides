@@ -39,7 +39,7 @@ I have put mine in `/home/nenuvar/Documents/D&D/TTRPG CLI/`
 
 Inside this folder you need to extract the contents of the *.zip we downloaded in the step above. The result should look like this:
 
-![[Pasted image 20250418133946.png]]
+![[convert-cli-screenshot-2.png]]
 ### Install Git (if you havent already)
 
 Git is an application that allows you to control Github using Command Prompts. It's a pre-requisite for the next steps in the process.
@@ -66,7 +66,7 @@ Wait for the process to complete. Basically the process is downloading a copy of
 ##### Folder for Template Examples
 If you cannot see a folder in your bin directory called `examples`, you'll need to download this for the config file to run correctly.
 Go to [Ebullient's main github](https://github.com/ebullient/ttrpg-convert-cli/tree/main) and download the entire code. Within the `.zip` find the folder called `examples` and copy this to your `/bin` folder. Your `bin` folder should now look like this (maybe except the `dm` folder)
-![[Pasted image 20250419200104.png]]
+![[convert-cli-screenshot.png]]
 #### D&D 5e Images
 Repeat the same process as above. But this time paste this command. 
 
