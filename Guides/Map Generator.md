@@ -1,0 +1,10 @@
+- Image generation API AI with direct image import is costly. Not viable right now
+- **Solution:** Use the working Text AI API to generate a prompt.
+	- **Prompt
+		- the prompt is based on the users input (difficulty, environment and main monster)
+		- maybe include some features from the story generation in the prompt (key story features related to the environment)
+	- **Image Generation
+		- add a link to preffered Image AI in a Custom Frames code block. 
+	- **Endpoint Idea
+		- Copy / paste the generated prompt into the Image AI displayed in the Custom Frames codeblock 
+		- Copy the generated battlemap into a Leaflet codeblock
