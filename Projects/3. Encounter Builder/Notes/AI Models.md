@@ -6,8 +6,9 @@ Options:
 - [Pixlr]([Image generator](https://pixlr.com/image-generator/)) - Free tokens (one-time use?)
 	- [[preview (1) 1.png|Example]]
 - [Bing Image Creater](https://www.bing.com/images/create?FORM=GENILP)
-	- 480 signs
+	- 480 characters
 	- [Example](https://th.bing.com/th/id/OIG1.qlf_YGSTGiB5KrLvpU1L?pid=ImgGn)
+	- 
 
 ---
 

@@ -1,0 +1,19 @@
+- [x] --help | user-friendly
+	- [x] Flags 
+		- Party | -p
+		- Monster sources | -m
+		- Folder Path | -f
+		- Edit Menu | -e
+- [x] Party info | adventurers race, class and biggest fear
+- [ ] .md output | 
+	- remove () from monster links
+	- add story beats
+	- add twist
+	- add trinkets
+	- add consueqences 
+	- add image (?)
+	- more creative titles (based on environment?)
+- [ ] UI | more effective
+	- Remove "press `enter`"
+	- "Start menu" shows the current party. Prompts the user to use --help for more info
+	- Encounter generated - use encounter name "Mystery in the Dark Mist generated at `folder path`"
