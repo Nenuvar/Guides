@@ -1,4 +1,14 @@
-
+### Prompts
+Forest clearing
+```
+A battlemap for D&D, showing a top-down view of a ruined stone castle courtyard. Crumbled walls, broken statues, and overgrown ivy cover the area. Clear pathing and variety in cover. Fantasy medieval style, moody daylight with overcast sky. Designed for use with minis.
+```
+- Creates a true top-down view of a detailed battlemap as described 
+```
+Top-down view battlemap for Dungeons & Dragons, high-resolution, fantasy style. Environment: ancient forest with overgrown ruins and mossy stone pillars. Includes terrain features like fallen logs, dense underbrush, scattered stones, and a small stream. Designed for tabletop RPG use. No characters or monsters, only terrain. Lighting: dappled sunlight through the trees. Realistic textures
+```
+- all if the above, and more realistic textures
+[DALLE3 and gpt-image-1 Prompt Tips and Tricks Thread - Prompting - OpenAI Developer Community|Prompt Discussion](https://community.openai.com/t/dalle3-and-gpt-image-1-prompt-tips-and-tricks-thread/498040/68)
 ```python
 def generate_battlemap_prompt(environment):
 
