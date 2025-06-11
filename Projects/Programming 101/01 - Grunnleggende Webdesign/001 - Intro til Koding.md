@@ -19,6 +19,7 @@ tags:
 ## 📝 Notater
 - Hva er programmering?
 - Hva er frontend/backend/fullstack?
+<<<<<<< Updated upstream
 - Hva er HTML Attributes?
 	- You can add attributes within the opening tag to add features to that tag. 
 	- To write an attribute you need to 
@@ -26,8 +27,15 @@ tags:
 		- Name the attribute `<img src>`
 		- Specify the value within double qoutes `<img src="https://i.pinimg.com/736x/85/32/1d/85321d0fd65ed2358d608306faf73d89.jpg">`
 		- You can add multiple attributes to the same tag, separated by empty spaces `<img src="https://i.pinimg.com/736x/85/32/1d/85321d0fd65ed2358d608306faf73d89.jpg" height="400" width="350">`
+=======
+	- det brukeren ser, det utvikleren ser, litt av begge deler
+>>>>>>> Stashed changes
 - Hva betyr HTML, CSS, JS?
+	- html: nettsidespråk 
+	- css: nettsidedesign
+	- js: javascript 
 
+<<<<<<< Updated upstream
 ## 💡 Oppgaver
 [[002a - HTML Testing]]
 - Se videoen og skriv ned tre ting du lærte.
@@ -38,6 +46,13 @@ tags:
 - Within the opening tag `<a>`, add an empty space and a then the attribute `href`. Specify the value of the attribute within qoutes `""`. 
 	- Remember to specify `https://` at the start to specify that it is an external link
 - I kodeblokken under, fyll inn elementene du trenger for å lage en nettside med overskriften "Nenuvar" og to paragrafer med tekst:
+=======
+## 💡 Oppgave
+- Se videoene og skriv noen få notater.
+- gå til neste steg så fort du blir lei
+- I kodeblokken under, fyll inn elementene du trenger for å lage en nettside med overskriften "Nenuvar" og to paragrafer med tekst. Test det i  [Replit](https://replit.com/new)
+
+>>>>>>> Stashed changes
 ```html
 
 ```
