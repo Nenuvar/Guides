@@ -17,6 +17,7 @@ tags:
   - Et bilde (`<img>`)
   - Et avsnitt (`<p>`)
   - En liste (`<ul>` eller `<ol>`)
+  What is a `relative` and an `absolute URL`?
 
 ## 📝 Notater
 - Hva betyr `<head>`, `<body>`, `<div>`?

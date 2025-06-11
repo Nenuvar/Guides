@@ -178,13 +178,15 @@ Copy the code below into the editor at [Replit](https://replit.com/@Nenuvar/Dand
 ```html
 <!DOCTYPE html>
 <html>
-<body>
+<!---Format the title to be: Nenuvar - D&D Characters --->
+<!---Format the favicon to be this image: https://i.pinimg.com/736x/08/35/df/0835dfa95938ea0cc49c276781f82030.jpg  --->
+
 D&D Characters <!---h3 heading, red text--->
 Nenuvar <!---bold--->
 
 <!---The paragrahp below should have each sentence on their own line--->
 Nenuvar is a gentle Firbolg druid who lives in a deep, green canyon hidden in the forests of Anoria. <!---`Anoria` in italic --->
-<!---Format `Firbolg` to be an external link to this page: https://www.dndbeyond.com/posts/287-putting-the-fur-in-firbolg-the-evolution-of-a --->
+<!---Format `Firbolg` to be an external link that opens in a new tab: https://www.dndbeyond.com/posts/287-putting-the-fur-in-firbolg-the-evolution-of-a --->
 They spend their days studying bugs — especially the yellow ones that glow like drops of sunlight. <!---`yellow` in yellow, bold --->
 <!---Add a line here --->
 <!---display the image in the link in this format: height: 400px, width: 350px --->
@@ -201,7 +203,7 @@ Learn to speak Beetle
 Ride a giant dragonfly into the sunset 
 Make people love bugs (or at least not scream).
 
-</body>
+
 </html>
 ```
 ##### Answers
