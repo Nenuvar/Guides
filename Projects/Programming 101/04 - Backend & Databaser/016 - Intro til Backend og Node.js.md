@@ -1,6 +1,11 @@
 ---
-Uke: 04
+Uke: 4
 Dag: 22
+Emne: Backend, Node.js
+tags:
+  - Backend
+  - Nodejs
+  - CLI
 ---
 ### 🎯 Mål:
 

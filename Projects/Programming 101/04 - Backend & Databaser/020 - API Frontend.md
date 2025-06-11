@@ -1,6 +1,12 @@
 ---
-Uke: 04
+Uke: 4
 Dag: 28
+Emne: API, Frontend
+tags:
+  - API
+  - Frontend
+  - HTML
+  - Git
 ---
 ### 🎯 Mål:
 

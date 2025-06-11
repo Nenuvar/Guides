@@ -1,6 +1,12 @@
 ---
-Uke: 04
+Uke: 4
 Dag: 26
+Emne: Database
+tags:
+  - database
+  - SQLite
+  - MongoDB
+  - Nodejs
 ---
 ### 🎯 Mål:
 

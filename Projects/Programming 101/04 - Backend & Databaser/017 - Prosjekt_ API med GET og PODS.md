@@ -1,6 +1,12 @@
 ---
-Uke: 04
+Uke: 4
 Dag: 23-24
+Emne: Project, API, GET, PODS
+tags:
+  - API
+  - GET
+  - PODS
+  - JSON
 ---
 ### 🎯 Mål:
 

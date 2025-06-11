@@ -1,6 +1,11 @@
 ---
-Uke: 02
+Uke: 2
 Dag: 14
+Emne: Reflection, HTML, CSS, JavaScript
+tags:
+  - HTML
+  - CSS
+  - JavaScript
 ---
 ## 🤔 Spørsmål
 - Hvordan føles det å lage noe interaktivt?

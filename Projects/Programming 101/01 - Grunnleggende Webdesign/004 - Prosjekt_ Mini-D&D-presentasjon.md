@@ -1,6 +1,10 @@
 ---
-Uke: 01
+Uke: 1
 Dag: 6
+Emne: Project, HTML
+tags:
+  - HTML
+  - GitHub
 ---
 
 ## 🎯 Mål

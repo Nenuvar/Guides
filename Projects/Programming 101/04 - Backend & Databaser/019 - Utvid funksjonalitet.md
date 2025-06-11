@@ -1,6 +1,12 @@
 ---
-Uke: 04
+Uke: 4
 Dag: 27
+Emne: CRUD, API
+tags:
+  - CRUD
+  - API
+  - Frontend
+  - Backend
 ---
 ### Mål:
 

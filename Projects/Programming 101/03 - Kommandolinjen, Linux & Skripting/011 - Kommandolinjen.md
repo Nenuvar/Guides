@@ -1,6 +1,9 @@
 ---
-Uke: 03
+Uke: 3
 Dag: 15
+Emne: CLI
+tags:
+  - CLI
 ---
 ## 📚 Ressurser
 - [Command Line Crash Course (20 min)](https://www.learnenough.com/command-line-tutorial)

@@ -1,6 +1,11 @@
 ---
-Uke: 01
+Uke: 1
 Dag: 7
+Emne: Reflection, HTML, CSS
+tags:
+  - HTML
+  - CSS
+  - JavaScript
 ---
 
 ## 🤔 Spørsmål

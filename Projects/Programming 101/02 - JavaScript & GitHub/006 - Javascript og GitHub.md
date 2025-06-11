@@ -1,6 +1,12 @@
 ---
-Uke: 02
+Uke: 2
 Dag: 8-9
+Emne: JavaScript, GitHub, Git
+tags:
+  - JavaScript
+  - GitHub
+  - Git
+  - HTML
 ---
 ## 📚 Ressurser
 - [W3Schools JavaScript intro](https://www.w3schools.com/js/)

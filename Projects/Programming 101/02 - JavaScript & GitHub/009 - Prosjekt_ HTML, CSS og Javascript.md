@@ -1,6 +1,11 @@
 ---
-Uke: 02
+Uke: 2
 Dag: 13
+Emne: Project, HTML, CSS, JavaScript
+tags:
+  - HTML
+  - CSS
+  - JavaScript
 ---
 ## 🎯 Mål
 Bruk HTML, CSS og JavaScript i ett prosjekt

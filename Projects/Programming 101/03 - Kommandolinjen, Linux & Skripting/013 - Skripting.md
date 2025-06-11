@@ -1,6 +1,9 @@
 ---
-Uke: 03
+Uke: 3
 Dag: 18
+Emne: Script
+tags:
+  - Script
 ---
 ## 📚 Ressurser
 - [Bash scripting intro](https://www.freecodecamp.org/news/bash-scripting-tutorial/)

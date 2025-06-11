@@ -1,6 +1,10 @@
 ---
-Uke: 03
+Uke: 3
 Dag: 21
+Emne: Reflection, CLI, Script
+tags:
+  - CLI
+  - Script
 ---
 ## 🤔 Spørsmål
 - Føles kommandolinjen nyttig eller for teknisk?

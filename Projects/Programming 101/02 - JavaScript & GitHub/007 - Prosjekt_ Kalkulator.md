@@ -1,6 +1,8 @@
 ---
 Uke: 02
 Dag: 10
+Emne: Project, JavaScript
+Tags:
 ---
 ## 🎯 Mål
 Lag en enkel app med JavaScript!

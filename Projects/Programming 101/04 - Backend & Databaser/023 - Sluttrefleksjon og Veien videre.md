@@ -1,6 +1,14 @@
 ---
-Uke: 04
+Uke: 4
 Dag: 30
+Emne: Frontend, Backend, API, JavaScript, Node.js, Git, GitHub
+tags:
+  - Frontend
+  - Backend
+  - API
+  - JavaScript
+  - Git
+  - GitHub
 ---
 ### 🎯 Mål:
 

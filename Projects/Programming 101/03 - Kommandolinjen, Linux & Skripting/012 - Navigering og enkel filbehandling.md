@@ -1,6 +1,9 @@
 ---
-Uke: 03
+Uke: 3
 Dag: 16-17
+Emne: CLI
+tags:
+  - CLI
 ---
 ## 🎯 Mål
 Lær å navigere og jobbe med mapper og filer i terminalen

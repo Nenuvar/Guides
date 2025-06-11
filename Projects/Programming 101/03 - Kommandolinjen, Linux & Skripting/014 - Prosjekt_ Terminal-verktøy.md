@@ -1,6 +1,10 @@
 ---
-Uke: 03
+Uke: 3
 Dag: 19-20
+Emne: Project, CLI, Script
+tags:
+  - CLI
+  - Script
 ---
 ## 🎯 Mål
 Lag et lite terminalverktøy som gjør noe fornuftig

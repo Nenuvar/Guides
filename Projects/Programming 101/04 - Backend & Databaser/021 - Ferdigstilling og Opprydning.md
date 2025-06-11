@@ -1,6 +1,12 @@
 ---
-Uke: 04
+Uke: 4
 Dag: 29
+Emne: Database, API, README
+tags:
+  - database
+  - API
+  - README
+  - Git
 ---
 ### 🎯 Mål:
 
